@@ -15,7 +15,7 @@ class Controls {
           this.left = true;
           break;
         case 'ArrowRight':
-          this.Right = true;
+          this.right = true;
           break;
         case 'ArrowUp':
           this.forward = true;
@@ -24,7 +24,6 @@ class Controls {
           this.reverse = true;
           break;
       }
-      console.table(this);
     };
 
     document.onkeyup = (event) => {
@@ -33,7 +32,7 @@ class Controls {
           this.left = false;
           break;
         case 'ArrowRight':
-          this.Right = false;
+          this.right = false;
           break;
         case 'ArrowUp':
           this.forward = false;
@@ -42,7 +41,6 @@ class Controls {
           this.reverse = false;
           break;
       }
-      console.table(this);
     };
   }
 }
