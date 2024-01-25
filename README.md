@@ -1,10 +1,12 @@
-# Self Driving AI Car Model `https://mike-rambil.github.io/self-driving-car-model/`
+# Self Driving AI Car Model
 
 This is my first project using Machine Learning.
 
+- [Visit Website](https://mike-rambil.github.io/self-driving-car-model/)
+
 ## How to use this project
 
-You can start training the AI model by using multiple cars.
+You can start training the _AI model_ by using multiple cars.
 
 Here are the steps:-
 
