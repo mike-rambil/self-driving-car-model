@@ -1,3 +1,5 @@
+// Imp: Sequence
+
 document.getElementById('carCount').value =
   localStorage.getItem('carCount') || 1;
 document.getElementById('mutationAmount').value =

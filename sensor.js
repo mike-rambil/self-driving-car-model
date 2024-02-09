@@ -1,3 +1,4 @@
+// Sensor
 class Sensor {
   constructor(car) {
     this.car = car;
@@ -16,7 +17,7 @@ class Sensor {
       this.readings.push(this.#getReading(this.rays[i], roadBorders, traffic));
     }
   }
-
+  // change!!
   #getReading(ray, roadBorders, traffic) {
     let touches = [];
 

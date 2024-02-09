@@ -1,3 +1,5 @@
+// Prepare e-listeners
+
 class Controls {
   constructor(type) {
     this.forward = false;

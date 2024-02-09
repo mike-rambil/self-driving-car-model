@@ -12,7 +12,7 @@ class Car {
     this.angle = 0;
     this.damaged = false;
     this.fitness = 0;
-
+    // Ai Driven
     this.useBrain = controlType == 'AI';
 
     if (controlType != 'DUMMY') {

@@ -5,7 +5,7 @@ class NeuralNetwork {
       this.levels.push(new Level(neuronCounts[i], neuronCounts[i + 1]));
     }
   }
-
+  // serialization
   static feedForward(givenInputs, network) {
     let outputs = Level.feedForward(givenInputs, network.levels[0]);
     for (let i = 1; i < network.levels.length; i++) {
